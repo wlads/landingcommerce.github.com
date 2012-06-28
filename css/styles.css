@@ -1,4 +1,49 @@
-body#landing section[role="main"] {
-  min-height: 894px;
-  background: url("/images/mulher.png") left top;
+html {
+  background: #fff !important;
+}
+
+body#landing {
+  background: #fff url("/images/bg.png") repeat-x top;
+}
+
+body#landing section[role="main"] h2 {
+  text-align: left;
+}
+
+body#landing section[role="main"] ol li {
+  margin-bottom: 20px;
+  padding-left: 50px;
+  min-height: 40px;
+  background: url("/images/list-numbers.png") no-repeat top left;
+  display: block;
+  background-position: 0 0;
+}
+
+body#landing section[role="main"] ol li.one {
+  background-position: 0 1px;
+}
+
+body#landing section[role="main"] ol li.two {
+  background-position: 0 -38px;
+}
+
+body#landing section[role="main"] ol li.three {
+  background-position: 0 -78px;
+}
+
+body#landing header {
+  width: 960px;
+  margin: 0 auto 0;
+}
+
+body#landing header #logo {
+  margin: 0;
+  padding: 30px 0 0 0;
+}
+
+body#landing header #tagline {
+  padding:0 0 30px 0;
+  color: #1b676b;
+  font-weight: bold;
+  font-size: 1.6em;
 }
