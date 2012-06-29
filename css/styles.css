@@ -1,3 +1,6 @@
+body {
+  overflow: hidden;
+}
 body#landing {
   background: #fff url("/images/bg.png") repeat-x top;
 }
@@ -45,7 +48,7 @@ body#landing header #tagline {
 }
 body#landing aside {
   width: 650px;
-  min-height: 670px;
+  min-height: 890px;
   background: url("/images/woman.png") no-repeat top left;
   position: absolute;
   top: -160px;
