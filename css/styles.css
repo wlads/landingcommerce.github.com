@@ -11,7 +11,10 @@ body#landing section[role="main"] {
 }
 
 body#landing section[role="main"] h2 {
+  margin: 20px 0;
   text-align: left;
+  font-weight: bold;
+  font-size: 2.5em;
 }
 
 body#landing section[role="main"] ol li {
@@ -21,6 +24,8 @@ body#landing section[role="main"] ol li {
   background: url("/images/list-numbers.png") no-repeat top left;
   display: block;
   background-position: 0 0;
+  font-weight: bold;
+  font-size: 1.2em;
 }
 
 body#landing section[role="main"] ol li.one {
