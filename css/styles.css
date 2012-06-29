@@ -1,62 +1,48 @@
-html {
-  background: #fff !important;
-}
-
 body#landing {
   background: #fff url("/images/bg.png") repeat-x top;
 }
-
 body#landing section[role="main"] {
   width: 382px;
 }
-
 body#landing section[role="main"] h2 {
-  margin: 20px 0;
+  margin: 10px 0;
   text-align: left;
   font-weight: bold;
   font-size: 2.5em;
 }
-
 body#landing section[role="main"] ol li {
   margin-bottom: 20px;
   padding-left: 50px;
-  min-height: 40px;
+  height: 40px;
   background: url("/images/list-numbers.png") no-repeat top left;
   display: block;
   background-position: 0 0;
   font-weight: bold;
   font-size: 1.2em;
 }
-
 body#landing section[role="main"] ol li.one {
   background-position: 0 1px;
 }
-
 body#landing section[role="main"] ol li.two {
   background-position: 0 -38px;
 }
-
 body#landing section[role="main"] ol li.three {
   background-position: 0 -78px;
 }
-
 body#landing header {
   width: 960px;
   margin: 0 auto 0;
 }
-
 body#landing header #logo {
   margin: 0;
   padding: 30px 0 0 0;
 }
-
 body#landing header #tagline {
   padding:0 0 30px 0;
   color: #1b676b;
   font-weight: bold;
   font-size: 1.6em;
 }
-
 body#landing aside {
   width: 498px;
   min-height: 670px;
@@ -66,7 +52,6 @@ body#landing aside {
   right: 0px;
   padding: 0;
 }
-
 body#landing #container {
   position: relative;
   background: none;
@@ -76,10 +61,33 @@ body#landing #container {
   -o-box-shadow: none;
   box-shadow: none;
 }
-
 body#landing footer {
   position: absolute;
   bottom: 0;
   width: 100%;
   text-align: center;
+}
+.button {
+  display: block;
+  font: normal 2.5em "Helvetica Neue", Helvetica, Arial, "Sans Serif";
+  margin: 20px 50px;
+  text-align: center;
+  padding: 5px 20px;
+  text-shadow: #c58c0b 0px -1px 0px;
+  color: #fff;
+  border: 0;
+  box-shadow: 1px 1px 1px #fff;
+  -moz-box-shadow: 1px 1px 1px #fff;
+  -webkit-box-shadow: 0 1px 0 #fff;
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fbc011), to(#ff7e00));
+  background: -moz-linear-gradient(top, #fbc011, #ff7e00);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fbc011', endColorstr='#ff7e00');
+  cursor: pointer;
+}
+.button:hover{
+  color: #fff;
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ffd866), to(#ff7e00));
+  background: -moz-linear-gradient(top, #ffd866, #ff7e00);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffd866', endColorstr='#ff7e00');
+  cursor: pointer;
 }
