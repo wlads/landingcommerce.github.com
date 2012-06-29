@@ -6,6 +6,10 @@ body#landing {
   background: #fff url("/images/bg.png") repeat-x top;
 }
 
+body#landing section[role="main"] {
+  width: 382px;
+}
+
 body#landing section[role="main"] h2 {
   text-align: left;
 }
@@ -46,4 +50,31 @@ body#landing header #tagline {
   color: #1b676b;
   font-weight: bold;
   font-size: 1.6em;
+}
+
+body#landing aside {
+  width: 498px;
+  min-height: 670px;
+  background: url("/images/woman.png") no-repeat top left;
+  position: absolute;
+  top: -100px;
+  right: 0px;
+  padding: 0;
+}
+
+body#landing #container {
+  position: relative;
+  background: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  -ms-box-shadow: none;
+  -o-box-shadow: none;
+  box-shadow: none;
+}
+
+body#landing footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
 }
