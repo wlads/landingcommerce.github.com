@@ -44,7 +44,7 @@ body#landing header #tagline {
   font-size: 1.6em;
 }
 body#landing aside {
-  width: 498px;
+  width: 650px;
   min-height: 670px;
   background: url("/images/woman.png") no-repeat top left;
   position: absolute;
