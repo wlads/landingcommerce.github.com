@@ -94,3 +94,9 @@ body#landing footer {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffd866', endColorstr='#ff7e00');
   cursor: pointer;
 }
+
+.merchant-login a{
+  color:black;
+  text-decoration:underline;
+  font-size: 1.2em;
+}
